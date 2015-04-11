@@ -126,7 +126,7 @@ var yAxis = d3.svg.axis()
                   .attr("class","cell")
                   .attr("x",function(d,i){return i*barHeight;})
                   .attr("y",function(d){ return 600-xScale(d);})
-                  .attr("width", barHeight)
+                  .attr("width", barHeight-5)
                   .attr("height",function(d){return xScale(d)})
                   .on("mouseover", function() {
     d3.select(this).classed("highlight", true);})
