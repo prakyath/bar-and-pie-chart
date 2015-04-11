@@ -37,6 +37,7 @@ border-style: solid;
 border-radius: 2px;
 border-width: 2px;
 padding-left: 45%;
+margin-bottom: 2px;
 
 
 }
